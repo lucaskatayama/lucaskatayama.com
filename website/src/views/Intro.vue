@@ -1,7 +1,7 @@
 <template>
   <section class="intro">
     <div class="ping">Hello World!</div>
-    <img data-v-75db5c58="" src="https://www.gravatar.com/avatar/54d4074475d7e585e2d7bba4ebe92525.jpg?size=400" class="avatar img-circle">
+    <img class="avatar img-circle" data-v-75db5c58 src="https://www.gravatar.com/avatar/54d4074475d7e585e2d7bba4ebe92525.jpg?size=400">
     <div class="name">Lucas Katayama</div>
   </section>
 </template>

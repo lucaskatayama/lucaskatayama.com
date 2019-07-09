@@ -1,5 +1,5 @@
 <template>
-  <section class="section title">
+  <section class="section">
     <header>
       $ cd $HOME/Pictures && ls
       <small>Another part of my life</small>
