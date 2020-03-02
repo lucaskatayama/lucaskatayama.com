@@ -6,8 +6,8 @@
       <p>
         and I am Brazilian Software Developer, building web and mobile
         applications, <br />
-        with 5 years of experience willing to move abroad to improve my skills
-        in development.
+        with almost 8 years of experience willing to move abroad to improve my
+        skills in development.
       </p>
 
       <p>I am self-taught and I ❤ new technologies and photography.</p>
@@ -15,9 +15,9 @@
     <section class="links">
       <div class="links">
         <template v-for="link in links">
-          <a target="_blank" :href="link.link" :key="link.label">{{
+          <a target="_blank" :href="link.link" :key="link.label" class="link">{{
             link.label
-          }}</a>&nbsp;
+          }}</a>
         </template>
       </div>
     </section>
@@ -72,6 +72,7 @@ section {
     a {
       color: $color-link;
       text-transform: lowercase;
+      margin: 0 5px;
     }
   }
 }
